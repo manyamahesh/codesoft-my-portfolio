@@ -11,7 +11,7 @@ body {
 header {
   background: 
     linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)),
-    url('header-bg.jpg') center/cover no-repeat;
+    url('header-bg.jpg') top/cover no-repeat;
   color: white;
   padding: 40px 20px;
   text-align: center;
