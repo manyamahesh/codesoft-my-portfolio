@@ -95,3 +95,7 @@ footer {
   padding: 20px;
   margin-top: 40px;
 }
+.form-container iframe {
+  border-radius: 8px;
+  border: none;
+}
