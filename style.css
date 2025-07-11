@@ -1,3 +1,4 @@
+/* Import font */
 body {
   font-family: 'Poppins', sans-serif;
   background-color: #f0f4f8;
@@ -5,16 +6,31 @@ body {
   margin: 0;
   padding: 0;
 }
+
+/* Hero Header with Background Image */
 header {
-  background: linear-gradient(90deg, #6a11cb 0%, #2575fc 100%);
+  background: 
+    linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url('header-bg.jpg') center/cover no-repeat;
   color: white;
   padding: 40px 20px;
   text-align: center;
 }
+
+/* Add slight glow to name */
+header h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+}
+
+/* Container limit */
 .container {
   max-width: 900px;
   margin: auto;
 }
+
+/* Main Card Structure */
 .card {
   background-color: white;
   margin: 20px auto;
@@ -23,18 +39,24 @@ header {
   border-radius: 12px;
   box-shadow: 0 0 15px rgba(0,0,0,0.1);
 }
+
+/* Headings */
 h2 {
   color: #2575fc;
   border-bottom: 2px solid #2575fc;
   padding-bottom: 5px;
   margin-bottom: 15px;
 }
+
+/* Profile Picture Styling */
 .profile-pic {
   width: 140px;
   border-radius: 50%;
   display: block;
   margin: 10px auto 20px;
 }
+
+/* Skills List */
 .skills-list {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
@@ -42,25 +64,32 @@ h2 {
   list-style: none;
   padding: 0;
 }
+
 .skills-list li {
   background: #e0e7ff;
   padding: 10px;
   border-radius: 8px;
   text-align: center;
 }
+
+/* Project Layout */
 .project {
   display: flex;
   flex-wrap: wrap;
   gap: 15px;
   margin-bottom: 20px;
 }
+
 .project img {
   max-width: 220px;
   border-radius: 8px;
 }
+
 .project div {
   flex: 1;
 }
+
+/* Button */
 .button {
   display: inline-block;
   background-color: #2575fc;
@@ -69,13 +98,17 @@ h2 {
   border-radius: 6px;
   text-decoration: none;
 }
-form input, form textarea {
+
+/* Contact Form */
+form input,
+form textarea {
   width: 100%;
   padding: 10px;
   margin-bottom: 10px;
   border: 1px solid #ccc;
   border-radius: 6px;
 }
+
 form button {
   background-color: #2575fc;
   color: white;
@@ -84,18 +117,24 @@ form button {
   border-radius: 6px;
   cursor: pointer;
 }
+
+/* Contact Info */
 .contact-info {
   margin-top: 10px;
   font-style: italic;
 }
+
+/* Google Form Container */
+.form-container iframe {
+  border-radius: 8px;
+  border: none;
+}
+
+/* Footer */
 footer {
   background-color: #222;
   color: #ddd;
   text-align: center;
   padding: 20px;
   margin-top: 40px;
-}
-.form-container iframe {
-  border-radius: 8px;
-  border: none;
 }
