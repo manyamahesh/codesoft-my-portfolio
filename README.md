@@ -16,7 +16,7 @@ Welcome to my personal portfolio site! This project showcases my background, pro
 - Hosted on GitHub Pages
 
 ## 🚀 Live Preview
-👉 [[View Portfolio]([https://yourusername.github.io/my-portfolio/](https://manyamahesh.github.io/codesoft-my-portfolio/)) *(Replace with your actual GitHub username)*](https://manyamahesh.github.io/codesoft-my-portfolio/)
+👉 (https://manyamahesh.github.io/codesoft-my-portfolio/)
 
 ## 📸 Screenshots
 ![Ambulance App](project1.jpg.png)
